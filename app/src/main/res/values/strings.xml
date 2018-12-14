@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">myFramework</string>
+    <string name="title_activity_android_basic_starter">AndroidBasicStarter</string>
+    <string name="title_activity_life_cycle_test">Life Cycle Test</string>
 </resources>
