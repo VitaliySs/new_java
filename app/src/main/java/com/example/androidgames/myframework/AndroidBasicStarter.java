@@ -14,10 +14,11 @@ public class AndroidBasicStarter extends ListActivity {
     "MediaPlayerTest", "FullScreenTest", "RenderViewTest", "ShapeTest",
     "BitmapTest", "FontTest", "SurfaceViewTest"};
 
-//    public void OnCreate(Bundle savedInstanceState){
-//        super.OnCreate(savedInstanceState);
-//        setListAdapter(new ArrayAdapter<String>(this.android.R.Layout.simple_list_item_1, tests));
-//    }
+    public void OnCreate(Bundle savedInstanceState){
+        super.onCreate(savedInstanceState);
+        setListAdapter(new ArrayAdapter<String>(this,
+                android.R.layout.simple_list_item_1, tests));
+    }
 
     @Override
     protected void onListItemClick(ListView list, View view, int position, long id){
