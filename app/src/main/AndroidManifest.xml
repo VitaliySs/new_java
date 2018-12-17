@@ -38,12 +38,12 @@
             android:name=".LifeCycleTest"
             android:label="@string/title_activity_life_cycle_test"
             android:configChanges="keyboard|keyboardHidden|orientation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity
             android:name=".SingleTouchTest"
             android:label="Single Touch Test"
             android:configChanges="keyboard|keyboardHidden|orientation"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
     </application>
 
 </manifest>
