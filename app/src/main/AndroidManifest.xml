@@ -66,7 +66,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MediaPlayerTest"
-            android:label="Mediaplayer Test"
+            android:label="Media Player Test"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".MultiTouchTest"
@@ -83,6 +83,18 @@
         <activity
             android:name=".SoundPoolTest"
             android:label="Sound Pool Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BitmapTest"
+            android:label="Bitmap Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FontTest"
+            android:label="Font Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SurfaceViewTest"
+            android:label="Surface View Test"
             android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
