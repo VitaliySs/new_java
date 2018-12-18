@@ -40,6 +40,7 @@ public class AccelerometerTest extends Activity implements SensorEventListener {
         builder.append(", z: ");
         builder.append(event.values[2]);
         textView.setText(builder.toString());
+
     }
 
     @Override

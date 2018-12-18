@@ -4,11 +4,11 @@
     package="com.example.androidgames.myframework"
     android:installLocation="preferExternal"
     android:versionCode="1"
-    android:versionName="0.1">
+    android:versionName="1.0">
 
     <uses-sdk
         android:maxSdkVersion="26"
-        android:minSdkVersion="3" />
+        android:minSdkVersion="16" />
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -44,6 +44,46 @@
             android:label="Single Touch Test"
             android:configChanges="keyboard|keyboardHidden|orientation"
             android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".AccelerometerTest"
+            android:label="Accelerometer Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AssetsTest"
+            android:label="Assets Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExternalStorageTest"
+            android:label="External Storage Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FullScreenTest"
+            android:label="Fullscreen Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KeyTest"
+            android:label="Key Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MediaPlayerTest"
+            android:label="Mediaplayer Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MultiTouchTest"
+            android:label="Multitouch Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RenderViewTest"
+            android:label="Render View Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShapeTest"
+            android:label="Shape Test"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SoundPoolTest"
+            android:label="Sound Pool Test"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
